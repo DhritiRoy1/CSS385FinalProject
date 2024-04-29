@@ -7,27 +7,20 @@ public class PlayerControl : MonoBehaviour
     // WASD control
 
     // AD and left/right
-    Vector2 forwardBackInput;
-    bool changeDirection;
+    public Vector2 forwardBackInput;
     public float playerRunSpeed = 2.5f;
     private Animator animator;
+    private SpriteRenderer spriteRenderer;
   
     void Start()
     {
         animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        // Flip sprite across Y-axis
-        if (changeDirection)
-        {
-            Vector3 scale = transform.localScale;
-            scale.y *= -1;
-            transform.localScale = scale;
-        }
-
         // Move Left / Right
         forwardBackInput.x = Input.GetAxis("Horizontal");
         transform.Translate(Vector3.right * Time.deltaTime * forwardBackInput.x * playerRunSpeed);
@@ -43,13 +36,16 @@ public class PlayerControl : MonoBehaviour
             animator.SetTrigger("Idle");
         }
 
-        if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.LeftArrow))
+        // determine when to flip the sprite
+        // if moving left but facing right, flip the sprite
+        if (forwardBackInput.x < 0 && !spriteRenderer.flipX)
         {
-
+            spriteRenderer.flipX = true;
         }
-        else if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.RightArrow))
+        // if moving right but not facing right, flip the sprite
+        else if (forwardBackInput.x > 0 && spriteRenderer.flipX)
         {
-
+            spriteRenderer.flipX = false;
         }
     
         
