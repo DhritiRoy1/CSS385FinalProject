@@ -699,6 +699,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 497b522066d039e469b86c72b7fa8ac0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  forwardBackInput: {x: 0, y: 0}
+  jumpingInput: {x: 0, y: 0}
   playerRunSpeed: 4
 --- !u!61 &1621689952
 BoxCollider2D:
@@ -772,7 +774,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!1 &1661579216
 GameObject:
   m_ObjectHideFlags: 0

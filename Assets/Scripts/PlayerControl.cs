@@ -8,6 +8,7 @@ public class PlayerControl : MonoBehaviour
 
     // AD and left/right
     public Vector2 forwardBackInput;
+    public Vector2 jumpingInput;
     public float playerRunSpeed = 2.5f;
     private Animator animator;
     private SpriteRenderer spriteRenderer;
@@ -24,6 +25,10 @@ public class PlayerControl : MonoBehaviour
         // Move Left / Right
         forwardBackInput.x = Input.GetAxis("Horizontal");
         transform.Translate(Vector3.right * Time.deltaTime * forwardBackInput.x * playerRunSpeed);
+
+        // Jumping
+        jumpingInput.y = Input.GetAxis("Jump");
+        transform.Translate(Vector2.up * Time.deltaTime * jumpingInput * 3.0f);
 
         if (forwardBackInput.x != 0)
         {
