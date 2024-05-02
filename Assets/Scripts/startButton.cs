@@ -6,23 +6,41 @@ using UnityEngine.SceneManagement;
 
 public class startButton : MonoBehaviour
 {
+    bool gameStart = false;
+    public GameObject fadeOut;
     SpriteRenderer spriteRenderer;
+    AudioSource audioSource;
     Color hoverColor = new Color (0.5f, 0.5f, 0.5f, 1.0f);
     Color origColor;
     // Start is called before the first frame update
     void Start()
     {
+        fadeOut.SetActive(false);
         spriteRenderer = GetComponent<SpriteRenderer>();
+        audioSource = GetComponent<AudioSource>();
         origColor = spriteRenderer.color;
     }
 
     // Update is called once per frame
     void Update()
     {   
-        // click
         if (Input.GetMouseButtonDown(0))
         {
-            SceneManager.LoadScene("TutorialScene");
+            gameStart = true;
+        }
+        // click
+        if (gameStart)
+        {
+            // fade out
+            fadeOut.SetActive(true);
+            // slowly lower volume
+            audioSource.volume -= 0.001f;
+
+            if (audioSource.volume == 0)
+            {
+                SceneManager.LoadScene("transitionScene");
+            }
+            
         }
     }
 
