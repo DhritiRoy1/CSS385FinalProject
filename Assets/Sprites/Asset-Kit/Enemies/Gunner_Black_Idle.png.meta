@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: b03452857840040e9b7e8dd66e1df5be
+guid: fc8e6b72118ba4c65a2226da1bb2d86e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4953872422412613790
-    second: Icon_24_0
+      213: -6247054907573570050
+    second: Gunner_Black_Idle_0
+  - first:
+      213: 2393780818395554090
+    second: Gunner_Black_Idle_1
+  - first:
+      213: 7457364104314087558
+    second: Gunner_Black_Idle_2
+  - first:
+      213: 3707494355833227685
+    second: Gunner_Black_Idle_3
+  - first:
+      213: -5877846674418528077
+    second: Gunner_Black_Idle_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +125,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Icon_24_0
+      name: Gunner_Black_Idle_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 3
-        width: 11
-        height: 11
+        x: 11
+        y: 8
+        width: 30
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,8 +139,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2670e7f474f404bb0800000000000000
-      internalID: -4953872422412613790
+      spriteID: ef577bde8a00e49a0800000000000000
+      internalID: -6247054907573570050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunner_Black_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 8
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a216c96b8fa683120800000000000000
+      internalID: 2393780818395554090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunner_Black_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 8
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 688e36e5421ed7760800000000000000
+      internalID: 7457364104314087558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunner_Black_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 8
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a98436397aa37330800000000000000
+      internalID: 3707494355833227685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunner_Black_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 8
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b0921f7791bd6ea0800000000000000
+      internalID: -5877846674418528077
       vertices: []
       indices: 
       edges: []
@@ -144,7 +240,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Icon_24_0: -4953872422412613790
+      Gunner_Black_Idle_0: -6247054907573570050
+      Gunner_Black_Idle_1: 2393780818395554090
+      Gunner_Black_Idle_2: 7457364104314087558
+      Gunner_Black_Idle_3: 3707494355833227685
+      Gunner_Black_Idle_4: -5877846674418528077
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

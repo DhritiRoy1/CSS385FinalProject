@@ -1,13 +1,31 @@
 fileFormatVersion: 2
-guid: 0bb57528ce7ec435c9701b19c40b00c0
+guid: 5c616d91acb3948b485c6a67d91bcae0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3449192545155241441
-    second: Icon_11_0
+      213: 6833888630546906250
+    second: Gunner_Blue_Run_0
   - first:
-      213: -1471998316808850712
-    second: Icon_11_1
+      213: -1630671690768197840
+    second: Gunner_Blue_Run_1
+  - first:
+      213: -9032668753293701017
+    second: Gunner_Blue_Run_2
+  - first:
+      213: 1411595819932082570
+    second: Gunner_Blue_Run_3
+  - first:
+      213: 8960309223514812386
+    second: Gunner_Blue_Run_4
+  - first:
+      213: 7645239089694377145
+    second: Gunner_Blue_Run_5
+  - first:
+      213: 2835318623462400589
+    second: Gunner_Blue_Run_6
+  - first:
+      213: -4232764041668284203
+    second: Gunner_Blue_Run_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -116,43 +134,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Icon_11_0
+      name: Gunner_Blue_Run_0
       rect:
         serializedVersion: 2
         x: 2
-        y: 3
-        width: 7
-        height: 11
+        y: 9
+        width: 38
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1e557ef585efddf20800000000000000
-      internalID: 3449192545155241441
+      spriteID: a8c34528089d6de50800000000000000
+      internalID: 6833888630546906250
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Icon_11_1
+      name: Gunner_Blue_Run_1
       rect:
         serializedVersion: 2
-        x: 8
-        y: 3
-        width: 7
-        height: 11
+        x: 49
+        y: 10
+        width: 39
+        height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8e2b2a07459629be0800000000000000
-      internalID: -1471998316808850712
+      spriteID: 037d976acb0be59e0800000000000000
+      internalID: -1630671690768197840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunner_Blue_Run_3
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 9
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a816a755beef69310800000000000000
+      internalID: 1411595819932082570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunner_Blue_Run_4
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 10
+        width: 40
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2efa149d3c9695c70800000000000000
+      internalID: 8960309223514812386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunner_Blue_Run_5
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 11
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b40a242278591a60800000000000000
+      internalID: 7645239089694377145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunner_Blue_Run_7
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 9
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d0b05eb7833245c0800000000000000
+      internalID: -4232764041668284203
       vertices: []
       indices: 
       edges: []
@@ -160,7 +262,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: fd3fc03f5f59543b695581bfbc7f727e
     internalID: 0
     vertices: []
     indices: 
@@ -168,8 +270,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Icon_11_0: 3449192545155241441
-      Icon_11_1: -1471998316808850712
+      Gunner_Blue_Run_0: 6833888630546906250
+      Gunner_Blue_Run_1: -1630671690768197840
+      Gunner_Blue_Run_2: -9032668753293701017
+      Gunner_Blue_Run_3: 1411595819932082570
+      Gunner_Blue_Run_4: 8960309223514812386
+      Gunner_Blue_Run_5: 7645239089694377145
+      Gunner_Blue_Run_6: 2835318623462400589
+      Gunner_Blue_Run_7: -4232764041668284203
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
