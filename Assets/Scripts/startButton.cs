@@ -24,20 +24,18 @@ public class startButton : MonoBehaviour
     // Update is called once per frame
     void Update()
     {   
-        if (Input.GetMouseButtonDown(0))
-        {
-            gameStart = true;
-        }
         // click
         if (gameStart)
         {
             // fade out
             fadeOut.SetActive(true);
             // slowly lower volume
-            audioSource.volume -= 0.001f;
+            audioSource.volume -= 0.3f * Time.deltaTime;
 
             if (audioSource.volume == 0)
             {
+                Debug.Log("transition scene loading!");
+                // 
                 SceneManager.LoadScene("transitionScene");
             }
             
@@ -48,6 +46,10 @@ public class startButton : MonoBehaviour
     void OnMouseOver()
     {
         spriteRenderer.color = hoverColor;
+        if (Input.GetMouseButtonDown(0))
+        {
+            gameStart = true;
+        }
     }
 
     void OnMouseExit()

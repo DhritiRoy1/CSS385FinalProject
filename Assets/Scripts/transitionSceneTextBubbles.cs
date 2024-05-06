@@ -4,6 +4,7 @@ using System.Runtime.CompilerServices;
 using Unity.VisualScripting;
 using UnityEngine.SceneManagement;
 using UnityEngine;
+using UnityEditor.SceneManagement;
 
 public class transitionSceneTextBubbles : MonoBehaviour
 {
@@ -50,12 +51,13 @@ public class transitionSceneTextBubbles : MonoBehaviour
                 if (index == 3)
                 {
                     SceneManager.LoadScene("tutorialScene");
+                    // close current scene
+                    return;
                 }
                 textBoxes[index].SetActive(false);
                 index++;
                 textBoxes[index].SetActive(true);
                 transform.position = textBoxes[index].transform.position + nextButtonOffset;
-
             }
         }
 

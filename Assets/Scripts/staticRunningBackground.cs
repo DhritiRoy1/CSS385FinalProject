@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class staticRunningBackground : MonoBehaviour
 {
-    private float cameraBoundX = Camera.main.transform.position.x + Camera.main.transform.position.x;
+    private float cameraBoundX;
     public float randomSpeed;
     public float randomDepth;
     // Start is called before the first frame update
     void Start()
     {
+      cameraBoundX = Camera.main.transform.position.x + Camera.main.transform.position.x;
       randomSpeed = Random.Range(2.0f, 3.0f);
       randomDepth = Random.Range(-1.0f, 0.0f);
     }
