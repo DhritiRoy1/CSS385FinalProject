@@ -35,7 +35,7 @@ public class startButton : MonoBehaviour
             if (audioSource.volume == 0)
             {
                 Debug.Log("transition scene loading!");
-                // 
+                // Init branch
                 SceneManager.LoadScene("transitionScene");
             }
             
