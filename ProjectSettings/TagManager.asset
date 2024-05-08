@@ -4,7 +4,7 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - gold
+  - doorenter
   layers:
   - Default
   - TransparentFX
