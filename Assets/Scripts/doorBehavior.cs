@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class doorBehavior : MonoBehaviour
 {
@@ -37,10 +38,12 @@ public class doorBehavior : MonoBehaviour
                     doorEnterTextBox.transform.position = player.transform.position + textBoxOffset;
                     doorEnterTextBox.SetActive(true);
                     textBoxOnScreen = true;
+                    StartCoroutine(DeactivateAfterDelay(3f));
                 }
                 else if (tag == "doorLevel1")
                 {
-
+                    SceneManager.LoadScene("levelOneScene");
+                    return;
                 }
                 else if (tag == "doorLevel2")
                 {
@@ -67,6 +70,15 @@ public class doorBehavior : MonoBehaviour
             isTouching = false;
         }
             
+    }
+
+    IEnumerator DeactivateAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+
+        doorEnterTextBox.SetActive(false);
+
+        textBoxOnScreen = false;
     }
     
 

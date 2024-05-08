@@ -1,10 +1,58 @@
 fileFormatVersion: 2
-guid: f7adc5ac18dc446d696e6e1b6f999e6c
+guid: fc08eb0c223224dafb71a7a3a33167ac
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7741340932879207643
-    second: pixel-speech-bubble(1)_0
+      213: -3428672953092550586
+    second: Tutorial3_0
+  - first:
+      213: 1150852634208562059
+    second: Tutorial3_1
+  - first:
+      213: 5863694105424742781
+    second: Tutorial3_2
+  - first:
+      213: 8153526777627356678
+    second: Tutorial3_3
+  - first:
+      213: 302193870731204668
+    second: Tutorial3_4
+  - first:
+      213: 6846023600014997790
+    second: Tutorial3_5
+  - first:
+      213: -6862211472735970348
+    second: Tutorial3_6
+  - first:
+      213: 2325931272708710913
+    second: Tutorial3_7
+  - first:
+      213: 3010881649560241658
+    second: Tutorial3_8
+  - first:
+      213: 5356697559163649987
+    second: Tutorial3_9
+  - first:
+      213: 3651198465935861290
+    second: Tutorial3_10
+  - first:
+      213: 6727409220726385319
+    second: Tutorial3_11
+  - first:
+      213: -3791859239613888753
+    second: Tutorial3_12
+  - first:
+      213: 2032854723659207052
+    second: Tutorial3_13
+  - first:
+      213: -4080728711084245496
+    second: Tutorial3_14
+  - first:
+      213: -2497392974355909546
+    second: Tutorial3_15
+  - first:
+      213: -4961663821526990280
+    second: Tutorial3_16
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,22 +161,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pixel-speech-bubble(1)_0
+      name: Tutorial3_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 17
-        width: 605
-        height: 200
+        x: 2
+        y: 0
+        width: 1266
+        height: 77
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5233b8adf6b319490800000000000000
-      internalID: -7741340932879207643
+      spriteID: 640dde37d18ea60d0800000000000000
+      internalID: -3428672953092550586
       vertices: []
       indices: 
       edges: []
@@ -136,7 +184,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 524ba723199084b50b9769a0fc407220
     internalID: 0
     vertices: []
     indices: 
@@ -144,7 +192,23 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      pixel-speech-bubble(1)_0: -7741340932879207643
+      Tutorial3_0: -3428672953092550586
+      Tutorial3_1: 1150852634208562059
+      Tutorial3_10: 3651198465935861290
+      Tutorial3_11: 6727409220726385319
+      Tutorial3_12: -3791859239613888753
+      Tutorial3_13: 2032854723659207052
+      Tutorial3_14: -4080728711084245496
+      Tutorial3_15: -2497392974355909546
+      Tutorial3_16: -4961663821526990280
+      Tutorial3_2: 5863694105424742781
+      Tutorial3_3: 8153526777627356678
+      Tutorial3_4: 302193870731204668
+      Tutorial3_5: 6846023600014997790
+      Tutorial3_6: -6862211472735970348
+      Tutorial3_7: 2325931272708710913
+      Tutorial3_8: 3010881649560241658
+      Tutorial3_9: 5356697559163649987
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

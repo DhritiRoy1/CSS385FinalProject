@@ -1,10 +1,40 @@
 fileFormatVersion: 2
-guid: f7adc5ac18dc446d696e6e1b6f999e6c
+guid: 040921d4cc05f46b8924063ceeff64f6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7741340932879207643
-    second: pixel-speech-bubble(1)_0
+      213: 546169645079054871
+    second: Tutorial4_0
+  - first:
+      213: 2186956051346288350
+    second: Tutorial4_1
+  - first:
+      213: -5994258943814144348
+    second: Tutorial4_2
+  - first:
+      213: -6079422876051405704
+    second: Tutorial4_3
+  - first:
+      213: 1090603844334060702
+    second: Tutorial4_4
+  - first:
+      213: 7792945386216267334
+    second: Tutorial4_5
+  - first:
+      213: -1380145599495451118
+    second: Tutorial4_6
+  - first:
+      213: -4631589196571167663
+    second: Tutorial4_7
+  - first:
+      213: -3028099281124642733
+    second: Tutorial4_8
+  - first:
+      213: -2213149294401421737
+    second: Tutorial4_9
+  - first:
+      213: -6472354424569676567
+    second: Tutorial4_10
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +67,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -113,22 +143,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pixel-speech-bubble(1)_0
+      name: Tutorial4_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 17
-        width: 605
-        height: 200
+        x: 2
+        y: 4
+        width: 817
+        height: 73
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5233b8adf6b319490800000000000000
-      internalID: -7741340932879207643
+      spriteID: 71ac9020662649700800000000000000
+      internalID: 546169645079054871
       vertices: []
       indices: 
       edges: []
@@ -136,7 +166,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 8fddd4aecfa8e46feb27c139a9a06df8
     internalID: 0
     vertices: []
     indices: 
@@ -144,7 +174,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      pixel-speech-bubble(1)_0: -7741340932879207643
+      Tutorial4_0: 546169645079054871
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -37,6 +37,7 @@ public class startButton : MonoBehaviour
                 Debug.Log("transition scene loading!");
                 // Init branch
                 SceneManager.LoadScene("transitionScene");
+                return;
             }
             
         }
