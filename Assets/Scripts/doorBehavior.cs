@@ -27,7 +27,7 @@ public class doorBehavior : MonoBehaviour
             doorEnterTextBox.transform.position = player.transform.position + textBoxOffset;
             // make it appear it for 3 seconds, then deactivate
         }
-        else if (Input.GetKeyUp(KeyCode.E))
+        if (Input.GetKeyUp(KeyCode.E))
         {
             Debug.Log("E is pressed");
             if (isTouching)
