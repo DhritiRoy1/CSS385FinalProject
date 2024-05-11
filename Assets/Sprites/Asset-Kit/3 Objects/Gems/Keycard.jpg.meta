@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e8a4bf5fd9b0e4758a891396d035667c
+guid: d3042143bb27d40fd89adfd6ca018d30
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8880217330070124816
-    second: Icon_22_0
+      213: 6393625202743233467
+    second: Keycard_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,22 +113,42 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Icon_22_0
+      name: Keycard_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 3
-        width: 13
-        height: 11
+        x: 519
+        y: 0
+        width: 1401
+        height: 1396
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -617.5, y: 698}
+        - {x: -617.5, y: 660}
+        - {x: -657.5, y: 660}
+        - {x: -657.5, y: 620}
+        - {x: -697.5, y: 620}
+        - {x: -697.5, y: -96}
+        - {x: -657.5, y: -96}
+        - {x: -657.5, y: -136}
+        - {x: -617.5, y: -136}
+        - {x: -617.5, y: -176}
+        - {x: 98.5, y: -177}
+        - {x: 98.5, y: -136}
+        - {x: 138.5, y: -136}
+        - {x: 138.5, y: -96}
+        - {x: 177.5, y: -96}
+        - {x: 178.5, y: 620}
+        - {x: 138.5, y: 619}
+        - {x: 137.5, y: 661}
+        - {x: 98.5, y: 659}
+        - {x: 99.5, y: 698}
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 019f81fbc9edc3b70800000000000000
-      internalID: 8880217330070124816
+      spriteID: bbbce7c3f38bab850800000000000000
+      internalID: 6393625202743233467
       vertices: []
       indices: 
       edges: []
@@ -136,7 +156,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5b19ebe393e1d46eeb12002b2251c640
     internalID: 0
     vertices: []
     indices: 
@@ -144,7 +164,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Icon_22_0: 8880217330070124816
+      Keycard_0: 6393625202743233467
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
