@@ -58,6 +58,8 @@ public class keyMechanics : MonoBehaviour
         xOffset += 0.0f;
 
         audioSource = GetComponent<AudioSource>();
+        nextLevelDoor.GetComponent<Renderer>();
+        nextLevelDoor.GetComponent<doorBehavior>().enabled = false;
         
     }
 
@@ -103,6 +105,7 @@ public class keyMechanics : MonoBehaviour
             // play door opening sound
             audioSource.Play();
             nextLevelDoor.GetComponent<SpriteRenderer>().color = Color.black;
+            nextLevelDoor.GetComponent<doorBehavior>().enabled = true;
             gameCleared = true;
         }
         
