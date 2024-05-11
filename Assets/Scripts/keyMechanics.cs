@@ -25,15 +25,11 @@ public class keyMechanics : MonoBehaviour
 
     // ----------------- DISPLAY MECHANIC ------------------------ //
     private int numKeysCollected = 0;
-    private int numKeyNotCollected = 0;
 
     void Awake()
     {
         int count = 0;
         UIOffset = new Vector3(4.27f,2.55f,-1.0f);
-
-        numKeyNotCollected = transform.childCount;
-        // Display "uncollected state" to screen
 
         collider2DPlayer = player.GetComponent<Collider2D>();
 
@@ -58,7 +54,6 @@ public class keyMechanics : MonoBehaviour
         xOffset += 0.0f;
 
         audioSource = GetComponent<AudioSource>();
-        nextLevelDoor.GetComponent<Renderer>();
         nextLevelDoor.GetComponent<doorBehavior>().enabled = false;
         
     }
