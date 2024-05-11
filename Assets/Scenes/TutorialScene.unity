@@ -784,6 +784,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1621689947}
+  spriteKeyIcon: {fileID: 8880217330070124816, guid: e8a4bf5fd9b0e4758a891396d035667c, type: 3}
+  xOffset: 0
+  UIOffset: {x: 0, y: 0, z: 0}
+  audioResource: {fileID: 8300000, guid: 1974eee2364824773be3bb476e7271ed, type: 3}
 --- !u!4 &301171987
 Transform:
   m_ObjectHideFlags: 0
