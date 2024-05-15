@@ -215,7 +215,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pressADButton_0: -7747053633597694078
+      pressADButton_1: -3994912157230650193
+      pressADButton_2: -4695543640713638978
+      pressADButton_3: 989800045033965622
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -57,7 +57,6 @@ public class doorBehavior : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("is touching");
         if (other.gameObject.tag == "Player")
         {
             isTouching = true;
