@@ -10,11 +10,9 @@ public class enemyMechanicEasy : MonoBehaviour
     // Green enemy (Medium) : Flip every 3 seconds, ability to move around a little bit but not random
     // Red enemy (Hard) : Flip every 3 seconds, random movements
     // Boss (Very Hard) : Random chance of seeing player through walls
-    SpriteRenderer spriteRenderer;
     
     void Awake()
     {
-        spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
         StartCoroutine(flipEnemyAction(flipIntervalSec));
     }
 

@@ -29,7 +29,7 @@ public class keyMechanics : MonoBehaviour
     void Awake()
     {
         int count = 0;
-        UIOffset = new Vector3(4.27f,2.55f,-1.0f);
+        UIOffset = new Vector3(3.64f,2.55f,-1.0f);
 
         collider2DPlayer = player.GetComponent<Collider2D>();
 
@@ -83,7 +83,7 @@ public class keyMechanics : MonoBehaviour
 
                     // Remove collider2d component from the list - it throws exception because I am
                     // removing the collider during iteration.
-                    childKeys.Remove(keyCollider);
+                    //childKeys.Remove(keyCollider);
                     if (childKeys.Count == 0)
                     {
                         gotAllKeys = true;
