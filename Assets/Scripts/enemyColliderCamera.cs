@@ -5,11 +5,10 @@ using UnityEngine;
 public class enemyColliderCamera : MonoBehaviour
 {
     private BoxCollider2D colliderEnemy;
-    private Camera cameraMain;
+
     void Awake()
     {
         colliderEnemy = gameObject.GetComponent<BoxCollider2D>();
-        cameraMain = Camera.main;
         colliderEnemy.enabled = false;
     }
 
@@ -30,9 +29,13 @@ public class enemyColliderCamera : MonoBehaviour
 
     bool isEnemyInFrame()
     {
-        Vector3 viewportPosition = cameraMain.WorldToViewportPoint(transform.position);
-         return viewportPosition.x > 0.25f && viewportPosition.x < 0.75f 
-        && viewportPosition.y > 0.25f && viewportPosition.y < 0.75f 
-        && viewportPosition.z > 0;
+         var planes = GeometryUtility.CalculateFrustumPlanes(Camera.main);
+        var point = this.transform.position;
+        foreach (var plane in planes)
+        {
+            if (plane.GetDistanceToPoint(point) < 0)
+                return false;
+        }
+        return true;
     }
 }
