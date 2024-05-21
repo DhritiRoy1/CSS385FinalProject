@@ -83,7 +83,7 @@ public class keyMechanics : MonoBehaviour
 
                     // Remove collider2d component from the list - it throws exception because I am
                     // removing the collider during iteration.
-                    //childKeys.Remove(keyCollider);
+                    childKeys.Remove(keyCollider);
                     if (childKeys.Count == 0)
                     {
                         gotAllKeys = true;
