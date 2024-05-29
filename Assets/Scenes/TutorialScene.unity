@@ -3280,7 +3280,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bc2283ac41c040d3aa0ed494c3be106, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  easyEnemy: {fileID: 3330438525478709569, guid: ab02b5208ebb14acf8f39ca547669fce, type: 3}
+  easyEnemyPrefab: {fileID: 3330438525478709569, guid: ab02b5208ebb14acf8f39ca547669fce, type: 3}
+  trophyUIPrefab: {fileID: 7829391473903569723, guid: e2035d183cb5c7049b1652fea7c7ddf0, type: 3}
+  keyPrefab: {fileID: 7268525448086374670, guid: 1961794b7d9b2475c8824a1f4b02038d, type: 3}
 --- !u!4 &1371635720
 Transform:
   m_ObjectHideFlags: 0
